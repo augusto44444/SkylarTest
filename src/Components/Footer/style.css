@@ -1,0 +1,85 @@
+.rodape{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 15vh;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li{
+    text-decoration: none;
+    transition: all ease .5s;
+}
+
+li a{
+    color: #555;
+    list-style: none;
+    text-transform: none;
+}
+
+i{
+    margin-right: 10px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+li:hover{
+    text-decoration: none;
+    color: rgb(112, 118, 204);
+    transform: scale(1.05);
+}
+
+span{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .rodape{
+        height: 12%;
+        transition: all ease 1s;
+        overflow: hidden;
+    }
+
+    span{
+        text-align: center;
+        font-size: .8em;
+        display: inline;
+    }
+
+    .rodape ul{
+        display: none;
+    }
+
+    .rodape:active ul, .rodape:hover ul{
+        display: flex;
+    }
+    .rodape:active span, .rodape:hover span{
+        display: none;
+    }
+
+    .rodape:active, .rodape:hover{
+        height: 33%;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    li a{
+
+        text-justify: auto;
+    }
+}

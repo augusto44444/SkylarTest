@@ -1,0 +1,14 @@
+.Header{
+    display: block;
+    background: #fff;
+    padding: 10px;
+    height: 10vh;
+    border-bottom: #00D1B2 solid 3px;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.Header h1{
+    color: #00D1B2;
+}
+
