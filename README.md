@@ -4,8 +4,12 @@ requisitos do sistema:
 
 INSTRUÇÔES:
 
-1- Abra o projeto em um prompt de comando e digite "npm i", isso pode demorar, aguerde terminar.
+1- Abra o projeto em um prompt de comando e digite "npm i", isso pode demorar, aguarde terminar.
 2 - após o termino do primeiro passo digite novamente, "npm start";
+
+
+como gerar arquivo de produção:
+    1 abra o prompt de comando e digite 'npm run build', isso pode demorar, aguarde
 
 Ferramentas utilizadas;
 • Node
